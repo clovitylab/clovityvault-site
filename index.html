@@ -7,13 +7,14 @@
 <meta name="description" content="Clovity Vault is a Seoul-based export and distribution partner for Korean beauty brands entering Southeast Asia: sourcing, market entry and marketplace operations.">
 <link rel="canonical" href="https://clovityventures.com/">
 <meta name="theme-color" content="#f7f3ec">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2712%27 fill=%27%236b2234%27/%3E%3Ctext x=%2732%27 y=%2742%27 font-family=%27Georgia,serif%27 font-size=%2728%27 fill=%27%23f7f3ec%27 text-anchor=%27middle%27%3ECV%3C/text%3E%3C/svg%3E">
 <meta property="og:title" content="Clovity Vault | K-Beauty Export &amp; Distribution for Southeast Asia">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://clovityventures.com/">
 <meta property="og:image" content="https://clovityventures.com/assets/hero.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Noto+Serif+KR:wght@400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="preload" as="image" href="assets/hero-poster.jpg">
 <style>
   :root{
@@ -46,8 +47,10 @@
   .nav ul{display:flex;gap:34px;list-style:none;margin:0;padding:0}
   .nav ul a{font:400 12px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;text-decoration:none;opacity:.9}
   .nav ul a:hover{opacity:1}
+  .nav ul a{white-space:nowrap}
+  .nav .ko-link a{font-family:"Noto Sans KR",var(--sans);letter-spacing:.06em}
   .nav.solid{background:rgba(247,243,236,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:var(--line);color:var(--ink)}
-  @media (max-width:860px){.nav ul li:not(:last-child){display:none}}
+  @media (max-width:860px){.nav ul{gap:20px}.nav ul li:not(:last-child):not(.ko-link){display:none}}
 
   /* hero */
   .hero{position:relative;height:100vh;min-height:620px;max-height:1100px;overflow:hidden;color:#fff;background:#3a2f27}
@@ -133,6 +136,21 @@
   .brands .mail{margin-top:26px;font:400 italic 20px/1 var(--serif);color:var(--wine)}
   .brands .mail a{text-decoration:none;border-bottom:1px solid rgba(107,34,52,.35)}
 
+  /* partners (Korean) */
+  .partners{background:var(--ivory-2)}
+  .partners .ko{font-family:"Noto Sans KR",var(--sans);word-break:keep-all}
+  .partners h2{font-family:"Noto Serif KR",var(--serif);font-size:clamp(28px,3.4vw,44px);line-height:1.3;margin:20px 0 22px;max-width:20ch}
+  .partners .lead{font-family:"Noto Sans KR",var(--sans);max-width:600px}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(18px,2vw,30px);margin-top:clamp(44px,6vw,72px);counter-reset:s}
+  .step{border-top:1px solid var(--stone);padding-top:24px}
+  .step .n{font:400 13px/1 var(--serif);font-style:italic;color:var(--wine)}
+  .step h3{font-family:"Noto Serif KR",var(--serif);font-size:clamp(19px,1.7vw,22px);line-height:1.4;margin:14px 0 10px}
+  .step p{font-family:"Noto Sans KR",var(--sans);font-size:14.5px;color:var(--muted);word-break:keep-all}
+  .partners .ask{margin-top:clamp(40px,5vw,60px);font-family:"Noto Sans KR",var(--sans);font-size:15px;color:var(--ink)}
+  .partners .ask a{color:var(--wine);text-decoration:none;border-bottom:1px solid rgba(107,34,52,.35)}
+  @media (max-width:860px){.steps{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.steps{grid-template-columns:1fr}}
+
   /* gallery */
   .gallery{padding-top:0}
   .g{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:clamp(110px,11vw,160px);gap:clamp(10px,1.4vw,18px)}
@@ -182,6 +200,7 @@
       <li><a href="#services">What we do</a></li>
       <li><a href="#standards">Standards</a></li>
       <li><a href="#brands">For brands</a></li>
+      <li class="ko-link"><a href="#partners" lang="ko">브랜드 파트너</a></li>
       <li><a href="#company">Contact</a></li>
     </ul>
   </div>
@@ -314,17 +333,19 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="gallery" aria-label="Gallery">
+  <!-- PARTNERS (KOREAN) -->
+  <section class="partners" id="partners" lang="ko">
     <div class="wrap">
-      <div class="g">
-        <figure class="a rv"><img src="assets/hands.jpg" alt="Hands gently spreading cream on the back of the hand" loading="lazy"></figure>
-        <figure class="b rv d1"><img src="assets/toner.jpg" alt="Glass toner bottle with water droplets in rippling water" loading="lazy"></figure>
-        <figure class="c rv d2"><img src="assets/texture.jpg" alt="Macro of a soft cream swirl" loading="lazy"></figure>
-        <figure class="d rv d1"><img src="assets/singapore.jpg" alt="Marina Bay, Singapore, at blue hour" loading="lazy"></figure>
-        <figure class="e rv d2"><img src="assets/stone.jpg" alt="Sculptural stone and ceramic forms with dried grass in warm sunlight" loading="lazy"></figure>
-        <figure class="f rv"><img src="assets/seoul.jpg" alt="Seoul skyline at blue hour" loading="lazy"></figure>
+      <span class="eyebrow rv">브랜드 파트너</span>
+      <h2 class="rv d1">한국 브랜드의 동남아 첫 판매, 작게 시작해 함께 키웁니다.</h2>
+      <p class="lead rv d2">클로비티볼트는 서울에 있는 화장품 수출·유통 회사입니다. 싱가포르를 시작으로 말레이시아·대만으로 넓혀 가며, 아직 동남아에 공식 판매처가 없는 한국 브랜드와 함께합니다.</p>
+      <div class="steps">
+        <div class="step rv"><span class="n">01</span><h3>판매 수권</h3><p>쇼피 싱가포르 비독점 공식 판매자로 시작합니다. 큰 계약이나 독점을 먼저 요구하지 않습니다.</p></div>
+        <div class="step rv d1"><span class="n">02</span><h3>싱가포르 신고</h3><p>싱가포르 화장품 신고(HSA)와 현지 책임 명의를 저희가 준비합니다. 브랜드는 전성분·제조 정보만 주시면 됩니다.</p></div>
+        <div class="step rv d2"><span class="n">03</span><h3>정품 판매 운영</h3><p>브랜드 또는 공식 유통사에서 받은 정품만 판매하고, 상품 등록·가격·배송·고객 응대를 맡습니다.</p></div>
+        <div class="step rv d3"><span class="n">04</span><h3>분기 성적표</h3><p>판매 수량·리뷰·현지 검색량을 분기마다 한 장으로 공유합니다. 성과가 쌓이면 지역 공식 유통을 함께 논의합니다.</p></div>
       </div>
+      <p class="ask rv">제휴 문의 <a href="mailto:admin@clovityventures.com?subject=%EB%B8%8C%EB%9E%9C%EB%93%9C%20%EC%A0%9C%ED%9C%B4%20%EB%AC%B8%EC%9D%98">admin@clovityventures.com</a></p>
     </div>
   </section>
 
@@ -336,7 +357,7 @@
         <h2>Clovity Vault Co., Ltd.</h2>
       </div>
       <dl>
-        <dt>Company</dt><dd>Clovity Vault Co., Ltd.</dd>
+        <dt>Company</dt><dd>Clovity Vault Co., Ltd. <span lang="ko" style="font-family:'Noto Sans KR',var(--sans);opacity:.8">(클로비티볼트 주식회사)</span></dd>
         <dt>Business reg. no.</dt><dd>766-87-03355</dd>
         <dt>Address</dt><dd>22-12, Bongeunsa-ro 26-gil, Gangnam-gu, Seoul, Republic of Korea</dd>
         <dt>Business</dt><dd>Export and distribution of cosmetics · Cross-border e-commerce</dd>
