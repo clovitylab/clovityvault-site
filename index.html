@@ -3,366 +3,280 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Clovity Vault | K-Beauty Export &amp; Distribution for Southeast Asia</title>
-<meta name="description" content="Clovity Vault is a Seoul-based export and distribution partner for Korean beauty brands entering Southeast Asia: sourcing, market entry and marketplace operations.">
+<title>Clovity Vault | We give it time</title>
+<meta name="description" content="Clovity Vault Co., Ltd. is a Seoul-based group company engaged in real estate holding and management, principal investment of its own capital, and media.">
 <link rel="canonical" href="https://clovityventures.com/">
-<meta name="theme-color" content="#f7f3ec">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2712%27 fill=%27%236b2234%27/%3E%3Ctext x=%2732%27 y=%2742%27 font-family=%27Georgia,serif%27 font-size=%2728%27 fill=%27%23f7f3ec%27 text-anchor=%27middle%27%3ECV%3C/text%3E%3C/svg%3E">
-<meta property="og:title" content="Clovity Vault | K-Beauty Export &amp; Distribution for Southeast Asia">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://clovityventures.com/">
-<meta property="og:image" content="https://clovityventures.com/assets/hero.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%2318181a%27/%3E%3Ctext x=%2732%27 y=%2743%27 font-family=%27Georgia,serif%27 font-size=%2730%27 fill=%27%23f5f4ee%27 text-anchor=%27middle%27%3ECV%3C/text%3E%3C/svg%3E">
+<meta property="og:image" content="https://clovityventures.com/assets/seoul-namsan-dusk.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Noto+Serif+KR:wght@400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="assets/hero-poster.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/seoul-namsan-dusk.jpg">
 <style>
   :root{
-    --ivory:#f7f3ec; --ivory-2:#efe8dc; --sand:#d9cbb4; --stone:#a8998a;
-    --ink:#2a2420; --muted:#6e645b; --line:#e3d9ca;
-    --wine:#6b2234; --wine-2:#8a3247;
+    --char:#18181a; --char-2:#222225; --cream:#f5f4ee; --cream-2:#ecebe3;
+    --ink:#18181a; --muted:#5f5d58; --rule:#d8d5cb; --gold:#a57f1f; --gold-l:#d8bd73;
+    --card:rgba(18,26,40,.88);
     --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
-    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-    --gut:clamp(16px,5vw,64px);
-    color-scheme: light;
+    --sans:"Source Sans 3",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    --kserif:"Noto Serif KR",serif; --ksans:"Noto Sans KR",var(--sans);
+    --gut:clamp(16px,5vw,80px);
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{margin:0;background:var(--ivory);color:var(--ink);font:300 16px/1.75 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
-  img,video{display:block;max-width:100%}
+  body{margin:0;background:var(--cream);color:var(--ink);font:300 17px/1.7 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  img{display:block;max-width:100%}
   a{color:inherit}
-  .wrap{max-width:1240px;margin:0 auto;padding:0 var(--gut)}
-  .eyebrow{font:500 11px/1 var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--wine)}
-  h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.005em;margin:0}
-  h2{font-size:clamp(34px,4.6vw,58px);line-height:1.08}
-  h3{font-size:clamp(24px,2.4vw,30px);line-height:1.15}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 var(--gut)}
+  .eyebrow{font:600 11px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+  h1,h2,h3{font-family:var(--serif);font-weight:300;margin:0;letter-spacing:-.01em}
   p{margin:0}
-  .lead{font-size:clamp(16px,1.35vw,18px);color:var(--muted);max-width:560px}
 
-  /* nav */
-  .nav{position:fixed;inset:0 0 auto 0;z-index:20;transition:background .5s,border-color .5s,color .5s;border-bottom:1px solid transparent;color:#fff}
-  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
-  .brand{font:500 15px/1 var(--serif);letter-spacing:.38em;text-decoration:none;text-transform:uppercase}
-  .brand small{display:block;font:400 9px/1 var(--sans);letter-spacing:.32em;margin-top:6px;opacity:.75}
-  .nav ul{display:flex;gap:34px;list-style:none;margin:0;padding:0}
-  .nav ul a{font:400 12px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;text-decoration:none;opacity:.9}
-  .nav ul a:hover{opacity:1}
-  .nav ul a{white-space:nowrap}
-  .nav .ko-link a{font-family:"Noto Sans KR",var(--sans);letter-spacing:.06em}
-  .nav.solid{background:rgba(247,243,236,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:var(--line);color:var(--ink)}
-  @media (max-width:860px){.nav ul{gap:20px}.nav ul li:not(:last-child):not(.ko-link){display:none}}
+  /* hero — full-bleed photo, headline bottom-left (GS · MS · Point72) */
+  .hero{position:relative;min-height:min(94vh,900px);color:#f5f4ee;display:flex;flex-direction:column;background:#0d1320}
+  .hero > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 60%}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,14,22,.82) 0%,rgba(10,14,22,.45) 50%,rgba(10,14,22,.15) 100%),linear-gradient(180deg,rgba(10,14,22,.55) 0%,rgba(10,14,22,0) 22%,rgba(10,14,22,.6) 100%)}
+  .bar{position:relative;z-index:2;border-bottom:1px solid rgba(245,244,238,.16)}
+  .bar .wrap{display:flex;justify-content:space-between;align-items:center;height:78px;gap:20px}
+  .brand{font:400 19px/1 var(--serif);letter-spacing:.3em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+  .bar nav{display:flex;gap:30px;margin-left:auto}
+  .bar nav a{font:600 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;text-decoration:none;opacity:.82}
+  .bar nav a:hover{opacity:1}
+  .bar nav a.ko{font-family:var(--ksans);letter-spacing:.04em;text-transform:none}
+  .bar .btn{font:600 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(245,244,238,.65);padding:12px 18px;margin-left:28px;white-space:nowrap}
+  @media (max-width:860px){.bar nav a:not(.keep){display:none}.bar nav{gap:16px}.bar .btn{display:none}}
+  .hero .body{position:relative;z-index:2;flex:1;display:flex;flex-direction:column;justify-content:flex-end;padding-top:90px;padding-bottom:clamp(56px,9vh,110px)}
+  .hero .eyebrow{color:var(--gold-l)}
+  .hero h1{font-size:clamp(40px,5.6vw,88px);line-height:1.02;max-width:none;margin:22px 0 32px}
+  .hero h1 em{font-style:italic;color:var(--gold-l)}
+  .hero .intro{max-width:520px;border-left:2px solid var(--gold-l);padding-left:20px;color:rgba(245,244,238,.85);font-size:clamp(16px,1.3vw,18px)}
+  .hero .place{position:absolute;right:var(--gut);bottom:clamp(24px,4vh,40px);z-index:2;font:400 11px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:rgba(245,244,238,.6)}
+  @media (max-width:600px){.hero .place{display:none}}
 
-  /* hero */
-  .hero{position:relative;height:100vh;min-height:620px;max-height:1100px;overflow:hidden;color:#fff;background:#3a2f27}
-  .hero video,.hero .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(28,20,16,.62) 0%,rgba(28,20,16,.38) 42%,rgba(28,20,16,0) 72%),linear-gradient(180deg,rgba(28,20,16,.38) 0%,rgba(28,20,16,0) 30%,rgba(28,20,16,.45) 100%)}
-  .hero h1,.hero p{text-shadow:0 1px 24px rgba(20,14,10,.35)}
-  .hero .wrap{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:clamp(56px,10vh,110px)}
-  .hero .eyebrow{color:#f1e6d6}
-  .hero h1{font-size:clamp(42px,7.2vw,104px);line-height:1;max-width:14ch;margin:22px 0 28px}
-  .hero h1 em{font-style:italic;color:#f1dfc8}
-  .hero p{max-width:480px;color:rgba(255,255,255,.86);font-size:clamp(15px,1.3vw,17px)}
-  .scroll-cue{position:absolute;right:var(--gut);bottom:clamp(56px,10vh,110px);z-index:2;font:400 10px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;writing-mode:vertical-rl;color:rgba(255,255,255,.75);display:flex;align-items:center;gap:14px}
-  .scroll-cue::after{content:"";width:1px;height:64px;background:rgba(255,255,255,.6)}
-  @media (max-width:600px){.scroll-cue{display:none}}
+  section{padding:clamp(84px,11vw,150px) 0}
+  /* statement with vertical divider (MS) */
+  .split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:start}
+  .split h2{font-size:clamp(34px,4vw,56px);line-height:1.08}
+  .split .txt{border-left:1px solid var(--rule);padding-left:clamp(20px,3vw,40px)}
+  .split .txt p{color:var(--muted);font-size:18px}
+  .split .txt p + p{margin-top:16px}
+  @media (max-width:860px){.split{grid-template-columns:1fr}}
 
-  .btn{display:inline-flex;align-items:center;gap:12px;padding:16px 30px;border:1px solid currentColor;font:500 11px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;text-decoration:none;transition:background .35s,color .35s,border-color .35s}
-  .btn.fill{background:var(--wine);border-color:var(--wine);color:#fff}
-  .btn.fill:hover{background:var(--wine-2);border-color:var(--wine-2)}
-  .btn.line:hover{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
-  .btn .arr{transition:transform .35s}
-  .btn:hover .arr{transform:translateX(4px)}
+  /* facts (Point72) */
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:clamp(56px,7vw,90px)}
+  .facts div{border-top:1px solid var(--ink);padding-top:22px}
+  .facts b{display:block;font:300 clamp(46px,5vw,68px)/1 var(--serif);margin-bottom:12px}
+  .facts span{font:600 11px/1.5 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .asof{text-align:right;font-style:italic;font-size:13px;color:var(--muted);margin-top:26px}
+  @media (max-width:860px){.facts{grid-template-columns:1fr 1fr}}
 
-  section{padding:clamp(88px,13vw,170px) 0}
+  /* businesses — photo tiles with overlay card (MS) */
+  .biz{background:var(--char);color:#f5f4ee}
+  .biz .eyebrow{color:var(--gold-l)}
+  .biz .split h2{color:#f5f4ee}
+  .biz .split .txt{border-color:rgba(245,244,238,.22)}
+  .biz .split .txt p{color:rgba(245,244,238,.72)}
+  .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:clamp(44px,6vw,72px)}
+  .tile{position:relative;min-height:520px;overflow:hidden;display:flex;align-items:flex-end;padding:22px}
+  .tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.4s cubic-bezier(.2,.6,.2,1)}
+  .tile:hover img{transform:scale(1.04)}
+  .tile .card{position:relative;background:var(--card);padding:24px 24px 28px;backdrop-filter:blur(2px)}
+  .tile .lab{font:600 10.5px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gold-l)}
+  .tile h3{font-size:32px;line-height:1.1;margin:14px 0 4px;color:#f5f4ee}
+  .tile .k{font-family:var(--kserif);font-size:14px;color:rgba(245,244,238,.7);margin-bottom:12px}
+  .tile p.d{color:rgba(245,244,238,.78);font-size:15px}
+  @media (max-width:960px){.tiles{grid-template-columns:1fr}.tile{min-height:440px}}
 
-  /* about */
-  .about{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,7vw,110px);align-items:center}
-  .about h2{margin:22px 0 30px}
-  .about .lead + .lead{margin-top:18px}
-  .about figure{margin:0;position:relative}
-  .about figure img{width:100%;aspect-ratio:4/5;object-fit:cover}
-  .about figure .inset{position:absolute;width:46%;left:-18%;bottom:-10%;aspect-ratio:1/1;border:10px solid var(--ivory)}
-  @media (max-width:860px){.about{grid-template-columns:1fr}.about figure{margin-right:0}.about figure .inset{left:auto;right:-4px;width:42%;bottom:-12%}}
+  /* principles */
+  .pr{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--rule);margin-top:clamp(36px,5vw,56px)}
+  .pr div{padding:30px 32px 0 0}
+  .pr div + div{padding-left:32px;border-left:1px solid var(--rule)}
+  .pr .lab{font:600 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+  .pr h3{font-size:30px;margin:14px 0 10px}
+  .pr p{color:var(--muted);font-size:16px}
+  @media (max-width:860px){.pr{grid-template-columns:1fr}.pr div + div{padding-left:0;border-left:0;border-top:1px solid var(--rule);margin-top:26px}}
 
-  /* what we do */
-  .services{background:var(--ivory-2)}
-  .sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:clamp(44px,6vw,80px);flex-wrap:wrap}
-  .sec-head h2{margin-top:20px;max-width:16ch}
-  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,36px)}
-  .card .ph{overflow:hidden;aspect-ratio:3/4;background:var(--sand)}
-  .card img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s cubic-bezier(.2,.6,.2,1)}
-  .card:hover img{transform:scale(1.05)}
-  .card .num{font:400 13px/1 var(--serif);font-style:italic;color:var(--wine);margin:26px 0 10px}
-  .card h3{margin-bottom:12px}
-  .card p{color:var(--muted);font-size:15px;max-width:34ch}
-  @media (max-width:860px){.cards{grid-template-columns:1fr}.card .ph{aspect-ratio:4/3}}
-
-  /* route */
-  .route{position:relative;color:#fff;padding:0;background:#1d2533}
-  .route .poster{width:100%;height:clamp(520px,82vh,860px);object-fit:cover}
-  .route video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-  .route .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,18,28,.72) 0%,rgba(14,18,28,.25) 55%,rgba(14,18,28,0) 100%)}
-  .route .wrap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center}
-  .route .eyebrow{color:#e8d7bf}
-  .route h2{margin:22px 0 26px;max-width:12ch}
-  .route p{max-width:440px;color:rgba(255,255,255,.85)}
-  .legs{display:flex;gap:18px;align-items:center;margin-top:40px;font:400 12px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase}
-  .legs i{display:block;width:72px;height:1px;background:rgba(255,255,255,.6)}
-
-  /* standards */
-  .standards{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(40px,7vw,120px)}
-  .standards h2{margin-top:20px;position:sticky;top:120px}
-  .std{border-top:1px solid var(--line);padding:34px 0;display:grid;grid-template-columns:72px 1fr;gap:20px}
-  .std:last-child{border-bottom:1px solid var(--line)}
-  .std .n{font:400 34px/1 var(--serif);color:var(--stone)}
-  .std h3{margin-bottom:10px}
-  .std p{color:var(--muted);max-width:52ch}
-  @media (max-width:860px){.standards{grid-template-columns:1fr}.standards h2{position:static}.std{grid-template-columns:48px 1fr}}
-
-  /* texture band */
-  .band{padding:0;display:grid;grid-template-columns:1fr 1fr;background:var(--ivory-2)}
-  .band .poster{width:100%;height:100%;min-height:520px;object-fit:cover}
-  .band video{width:100%;height:100%;object-fit:cover}
-  .band .txt{padding:clamp(56px,8vw,120px) var(--gut);display:flex;flex-direction:column;justify-content:center}
-  .band h2{margin:20px 0 26px}
-  @media (max-width:860px){.band{grid-template-columns:1fr}.band video,.band .poster{min-height:360px}}
-
-  /* brands */
-  .brands{text-align:center}
-  .brands h2{margin:22px auto 26px;max-width:18ch}
-  .brands .lead{margin:0 auto 18px}
-  .brands .note{font-size:14px;color:var(--muted);margin:0 auto 42px;max-width:520px}
-  .brands .ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-  .brands .mail{margin-top:26px;font:400 italic 20px/1 var(--serif);color:var(--wine)}
-  .brands .mail a{text-decoration:none;border-bottom:1px solid rgba(107,34,52,.35)}
-
-  /* partners (Korean) */
-  .partners{background:var(--ivory-2)}
-  .partners .ko{font-family:"Noto Sans KR",var(--sans);word-break:keep-all}
-  .partners h2{font-family:"Noto Serif KR",var(--serif);font-size:clamp(28px,3.4vw,44px);line-height:1.3;margin:20px 0 22px;max-width:20ch}
-  .partners .lead{font-family:"Noto Sans KR",var(--sans);max-width:600px}
-  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(18px,2vw,30px);margin-top:clamp(44px,6vw,72px);counter-reset:s}
-  .step{border-top:1px solid var(--stone);padding-top:24px}
-  .step .n{font:400 13px/1 var(--serif);font-style:italic;color:var(--wine)}
-  .step h3{font-family:"Noto Serif KR",var(--serif);font-size:clamp(19px,1.7vw,22px);line-height:1.4;margin:14px 0 10px}
-  .step p{font-family:"Noto Sans KR",var(--sans);font-size:14.5px;color:var(--muted);word-break:keep-all}
-  .partners .ask{margin-top:clamp(40px,5vw,60px);font-family:"Noto Sans KR",var(--sans);font-size:15px;color:var(--ink)}
-  .partners .ask a{color:var(--wine);text-decoration:none;border-bottom:1px solid rgba(107,34,52,.35)}
-  @media (max-width:860px){.steps{grid-template-columns:1fr 1fr}}
-  @media (max-width:520px){.steps{grid-template-columns:1fr}}
-
-  /* gallery */
-  .gallery{padding-top:0}
-  .g{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:clamp(110px,11vw,160px);gap:clamp(10px,1.4vw,18px)}
-  .g figure{margin:0;overflow:hidden;background:var(--sand)}
-  .g img{width:100%;height:100%;object-fit:cover;transition:transform 1.6s cubic-bezier(.2,.6,.2,1)}
-  .g figure:hover img{transform:scale(1.04)}
-  .g .a{grid-column:1/6;grid-row:span 3}
-  .g .b{grid-column:6/10;grid-row:span 2}
-  .g .c{grid-column:10/13;grid-row:span 2}
-  .g .d{grid-column:6/9;grid-row:span 2}
-  .g .e{grid-column:9/13;grid-row:span 2}
-  .g .f{grid-column:1/6;grid-row:span 1}
-  @media (max-width:700px){.g{grid-template-columns:1fr 1fr;grid-auto-rows:150px}.g figure{grid-column:auto!important;grid-row:span 1!important}.g .a{grid-column:1/3!important;grid-row:span 2!important}.g .f{grid-column:1/3!important}}
+  /* korean — photo band */
+  .korean{position:relative;color:#f5f4ee;overflow:hidden;background:#0d1320}
+  .korean > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 70%}
+  .korean::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,14,22,.82) 0%,rgba(10,14,22,.62) 50%,rgba(10,14,22,.30) 100%)}
+  .korean .wrap{position:relative;z-index:2}
+  .korean::before{z-index:1}
+  .korean .eyebrow{color:var(--gold-l)}
+  .korean .split{margin-top:20px}
+  .korean .split h2{font-size:clamp(34px,4vw,56px);line-height:1.1}
+  .korean .split .txt{border:0;background:rgba(10,14,22,.78);padding:30px 34px;backdrop-filter:blur(3px)}
+  .korean .split .txt p{color:rgba(245,244,238,.8);font-size:17px}
+  .korean ul{list-style:none;margin:24px 0 0;padding:0}
+  .korean li{font-size:15.5px;padding:13px 0;border-top:1px solid rgba(245,244,238,.18);display:grid;grid-template-columns:130px 1fr;gap:14px;color:rgba(245,244,238,.78)}
+  .korean li b{font-weight:600;color:#f5f4ee;letter-spacing:.02em}
+  @media (max-width:560px){.korean li{grid-template-columns:1fr;gap:2px}}
 
   /* company */
-  .company{background:var(--ink);color:#efe7da}
-  .company .eyebrow{color:#d8b9a0}
-  .co{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(40px,7vw,120px)}
-  .co h2{margin-top:20px}
-  dl{margin:0;display:grid;grid-template-columns:190px 1fr}
-  dt,dd{margin:0;padding:22px 0;border-top:1px solid rgba(239,231,218,.16)}
-  dt{font:500 11px/1.9 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:#b9ab99}
-  dd{font-size:16px}
-  dd a{text-decoration:none;border-bottom:1px solid rgba(239,231,218,.35)}
-  dd a:hover{border-color:#efe7da}
-  @media (max-width:860px){.co{grid-template-columns:1fr}dl{grid-template-columns:1fr}dd{border-top:0;padding-top:0}dt{padding-bottom:6px}}
+  .company dl{margin:clamp(32px,4vw,48px) 0 0;display:grid;grid-template-columns:240px 1fr;border-top:1px solid var(--rule)}
+  .company dt,.company dd{margin:0;padding:18px 0;border-bottom:1px solid var(--rule)}
+  .company dt{font:600 11px/1.9 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  .company dd a{text-decoration:none;border-bottom:1px solid var(--gold)}
+  @media (max-width:760px){.company dl{grid-template-columns:1fr}.company dt{border-bottom:0;padding-bottom:0}}
 
-  footer{background:var(--ink);color:#a89c8d;border-top:1px solid rgba(239,231,218,.12);font-size:13px}
-  footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:36px;padding-bottom:36px}
-  footer .brand{color:#efe7da;font-size:13px}
-  footer .fine{width:100%;font-size:11px;color:#81766a;margin-top:6px}
+  /* disclaimer + footer (Point72) */
+  footer{background:var(--char);color:rgba(245,244,238,.62);font-size:13px;line-height:1.75}
+  footer .disc{display:grid;grid-template-columns:220px 1fr;gap:24px;padding:48px 0 36px;border-bottom:1px solid rgba(245,244,238,.12)}
+  footer .disc .eyebrow{color:var(--gold-l)}
+  footer .disc p + p{margin-top:10px}
+  footer .bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:26px 0 44px;background-image:radial-gradient(rgba(245,244,238,.08) 1px,transparent 1.6px);background-size:12px 12px}
+  footer .brand{color:#f5f4ee;font-size:14px}
+  footer .credits{font-size:11.5px;color:rgba(245,244,238,.45);width:100%}
+  footer .credits a{text-decoration:none;border-bottom:1px solid rgba(245,244,238,.25)}
+  @media (max-width:760px){footer .disc{grid-template-columns:1fr}}
 
-  /* reveal */
-  .rv{opacity:0;transform:translateY(28px);transition:opacity 1.1s cubic-bezier(.2,.6,.2,1),transform 1.1s cubic-bezier(.2,.6,.2,1)}
+  /* ---- motion (v9) ---- */
+  .hero,.korean,.tiles{overflow:hidden}
+  .hero > img{transform-origin:60% 60%;animation:kenburns 26s ease-in-out infinite alternate;will-change:transform}
+  @keyframes kenburns{0%{transform:scale(1.04) translate3d(0,0,0)}100%{transform:scale(1.16) translate3d(-2.5%,-1.5%,0)}}
+  .hero .glow{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(60% 40% at 78% 62%,rgba(255,170,90,.22),transparent 70%);mix-blend-mode:screen;animation:glow 9s ease-in-out infinite alternate}
+  @keyframes glow{0%{opacity:.35}100%{opacity:.85}}
+  .hero .body > *{opacity:0;transform:translateY(26px);animation:rise 1.4s cubic-bezier(.2,.7,.2,1) forwards}
+  .hero .body > .eyebrow{animation-delay:.25s}
+  .hero .body > h1{animation-delay:.45s}
+  .hero .body > .intro{animation-delay:.9s}
+  .hero h1 em{display:inline-block;opacity:0;transform:translateY(18px);animation:rise 1.4s cubic-bezier(.2,.7,.2,1) 1.05s forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .hero .scroll{position:absolute;left:50%;bottom:22px;z-index:2;width:1px;height:56px;background:linear-gradient(rgba(245,244,238,0),rgba(245,244,238,.7));animation:drip 2.4s ease-in-out infinite}
+  @keyframes drip{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+  [data-par]{will-change:transform}
+  .rv{opacity:0;transform:translateY(34px);transition:opacity 1.2s cubic-bezier(.2,.7,.2,1),transform 1.2s cubic-bezier(.2,.7,.2,1)}
   .rv.in{opacity:1;transform:none}
-  .rv.d1{transition-delay:.12s}.rv.d2{transition-delay:.24s}.rv.d3{transition-delay:.36s}
-  @media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+  .rv.d1{transition-delay:.15s}.rv.d2{transition-delay:.3s}.rv.d3{transition-delay:.45s}
+  .facts b{font-variant-numeric:tabular-nums}
+  .tile{clip-path:inset(12% 0 0 0);transition:clip-path 1.4s cubic-bezier(.2,.7,.2,1)}
+  .tile.in{clip-path:inset(0 0 0 0)}
+  .tile img{animation:breathe 18s ease-in-out infinite alternate}
+  .tile:nth-child(2) img{animation-delay:-6s}.tile:nth-child(3) img{animation-delay:-12s}
+  @keyframes breathe{0%{transform:scale(1.02)}100%{transform:scale(1.12)}}
+  .tile:hover img{animation-play-state:paused;transform:scale(1.14)}
+  .tile .card{transition:transform .6s cubic-bezier(.2,.7,.2,1),background .6s}
+  .tile:hover .card{transform:translateY(-8px);background:rgba(18,26,40,.94)}
+  .korean > img{top:-12%;height:124%}
+  .bar{transition:background .5s,backdrop-filter .5s}
+  .bar.solid{position:fixed;top:0;left:0;right:0;background:rgba(24,24,26,.82);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);z-index:50}
+  @media (prefers-reduced-motion:reduce){
+    .hero > img,.hero .glow,.tile img,.hero .scroll{animation:none}
+    .hero .body > *,.hero h1 em{opacity:1;transform:none;animation:none}
+    .rv,.tile{opacity:1;transform:none;clip-path:none;transition:none}
+    [data-par]{transform:none!important}
+  }
 </style>
 </head>
 <body>
 
-<header class="nav" id="nav">
-  <div class="wrap">
-    <a class="brand" href="#top">Clovity Vault<small>Seoul · Southeast Asia</small></a>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">What we do</a></li>
-      <li><a href="#standards">Standards</a></li>
-      <li><a href="#brands">For brands</a></li>
-      <li class="ko-link"><a href="#partners" lang="ko">브랜드 파트너</a></li>
-      <li><a href="#company">Contact</a></li>
-    </ul>
+<header class="hero" id="top">
+  <img src="assets/seoul-namsan-dusk.jpg" alt="Seoul at dusk, with N Seoul Tower on Namsan" data-par="0.25"><div class="glow" aria-hidden="true"></div>
+  <div class="bar">
+    <div class="wrap">
+      <a class="brand" href="#top">Clovity Vault</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#businesses">Businesses</a>
+        <a href="#approach">Principles</a>
+        <a class="keep" href="#seoul">Seoul</a>
+      </nav>
+      <a class="btn" href="#company">Get in touch</a>
+    </div>
   </div>
+  <div class="wrap body">
+    <span class="eyebrow">Seoul · Republic of Korea</span>
+    <h1>We don&rsquo;t time the market.<br><em>We give it time.</em></h1>
+    <p class="intro">Buildings, companies and ideas, held by a Seoul group that answers to no one&rsquo;s clock but its own.</p>
+  </div>
+  <span class="place">Namsan, Seoul</span>
+  <span class="scroll" aria-hidden="true"></span>
 </header>
 
-<main id="top">
-  <!-- HERO -->
-  <section class="hero" aria-label="Introduction">
-    <img class="poster" src="assets/hero-poster.jpg" alt="Glass serum dropper bottles on beige travertine in soft daylight">
-    <video class="bg-video" muted loop playsinline preload="none" poster="assets/hero-poster.jpg" data-src="assets/hero.mp4" aria-hidden="true"></video>
-    <div class="wrap">
-      <span class="eyebrow rv">K-Beauty Export &amp; Distribution</span>
-      <h1 class="rv d1">Korean beauty, <em>carefully sourced</em> for Southeast Asia.</h1>
-      <p class="rv d2">Clovity Vault connects Korea's most promising beauty brands with consumers across Southeast Asia, handling sourcing, market entry and marketplace operations end to end.</p>
-    </div>
-    <span class="scroll-cue">Scroll</span>
-  </section>
-
-  <!-- ABOUT -->
+<main>
   <section id="about">
-    <div class="wrap about">
-      <div>
-        <span class="eyebrow rv">About us</span>
-        <h2 class="rv d1">A quiet bridge between Seoul and the region.</h2>
-        <p class="lead rv d2">Based in Seoul, Clovity Vault is an export and distribution partner for Korean beauty brands entering Southeast Asia.</p>
-        <p class="lead rv d3">We work with a curated portfolio of independent brands and take their products from Korean shelves to customers in Singapore, Malaysia and beyond, bringing the regulatory, logistics and marketplace expertise each market requires.</p>
-      </div>
-      <figure class="rv d1">
-        <img src="assets/ingredients.jpg" alt="Rice grains, green tea leaves and centella leaves arranged on linen and stone" loading="lazy">
-        <img class="inset" src="assets/texture.jpg" alt="Close-up of a soft white cream texture" loading="lazy">
-      </figure>
-    </div>
-  </section>
-
-  <!-- WHAT WE DO -->
-  <section class="services" id="services">
     <div class="wrap">
-      <div class="sec-head">
-        <div>
-          <span class="eyebrow rv">What we do</span>
-          <h2 class="rv d1">From the brand's shelf to the customer's hands.</h2>
+      <span class="eyebrow">Who we are</span>
+      <div class="split rv" style="margin-top:20px">
+        <h2>Our only client is <em style="font-style:italic;color:var(--gold)">the next generation.</em></h2>
+        <div class="txt">
+          <p>No LPs to placate. No quarter-end to dress up. Just a balance sheet, a long memory and a city we know by heart.</p>
+          <p>We stay still when markets are loud, move when they go quiet, and keep whatever keeps earning its place.</p>
         </div>
-        <p class="lead rv d2">One partner for every step of market entry.</p>
       </div>
-      <div class="cards">
-        <article class="card rv">
-          <div class="ph"><img src="assets/lab.jpg" alt="Glass beakers and amber ampoules on a white marble counter" loading="lazy"></div>
-          <p class="num">01</p>
-          <h3>Sourcing &amp; Quality</h3>
-          <p>Authentic products purchased directly from brands and authorised Korean distributors, inspected and documented before export.</p>
-        </article>
-        <article class="card rv d1">
-          <div class="ph"><img src="assets/packaging.jpg" alt="Kraft paper boxes tied with cream ribbon on a clean packing table" loading="lazy"></div>
-          <p class="num">02</p>
-          <h3>Market Entry</h3>
-          <p>Product notification, labelling and compliance support for each market, including Singapore HSA and Malaysia NPRA requirements.</p>
-        </article>
-        <article class="card rv d2">
-          <div class="ph"><img src="assets/makeup.jpg" alt="Minimal still life of a lip tint tube and a cushion compact" loading="lazy"></div>
-          <p class="num">03</p>
-          <h3>Marketplace Operations</h3>
-          <p>Listing, pricing, fulfilment and customer care on Shopee and leading regional platforms, with regular performance reporting for every brand.</p>
-        </article>
+      <div class="facts rv d1">
+        <div><b data-count="3">3</b><span>Disciplines</span></div>
+        <div><b data-count="100" data-suffix="%">100%</b><span>Skin in the game</span></div>
+        <div><b>0</b><span>Outside investors</span></div>
+        <div><b>&infin;</b><span>Intended holding period</span></div>
       </div>
+      <p class="asof rv d2">As of 30 October 2026</p>
     </div>
   </section>
 
-  <!-- ROUTE -->
-  <section class="route" aria-label="From Seoul to Southeast Asia">
-    <img class="poster" src="assets/route-poster.jpg" alt="Seoul skyline at blue hour" loading="lazy">
-    <video class="bg-video" muted loop playsinline preload="none" poster="assets/route-poster.jpg" data-src="assets/route.mp4" aria-hidden="true"></video>
-    <div class="shade"></div>
+  <section class="biz" id="businesses">
     <div class="wrap">
-      <span class="eyebrow rv">The route</span>
-      <h2 class="rv d1">From Seoul to Southeast Asia.</h2>
-      <p class="rv d2">Singapore is our first market, with Malaysia and Taiwan next. Every shipment leaves Seoul fully documented and arrives ready for local sale.</p>
-      <div class="legs rv d3"><span>Seoul</span><i></i><span>Singapore</span><i></i><span>Kuala Lumpur</span></div>
-    </div>
-  </section>
-
-  <!-- STANDARDS -->
-  <section id="standards">
-    <div class="wrap standards">
-      <div>
-        <span class="eyebrow rv">Our standards</span>
-        <h2 class="rv d1">Our commitment to every brand and customer.</h2>
-      </div>
-      <div>
-        <div class="std rv">
-          <span class="n">i.</span>
-          <div><h3>Genuine products only</h3><p>Every product is purchased from the brand or an authorised Korean distributor. We do not trade in grey-market stock.</p></div>
-        </div>
-        <div class="std rv">
-          <span class="n">ii.</span>
-          <div><h3>Full traceability</h3><p>Supplier, batch and shipment records are kept for every product we sell and shared with brand partners on request.</p></div>
-        </div>
-        <div class="std rv">
-          <span class="n">iii.</span>
-          <div><h3>Local compliance</h3><p>We follow the cosmetic regulations and marketplace policies of every market we operate in.</p></div>
-        </div>
+      <span class="eyebrow">What we do</span>
+      <div class="split" style="margin-top:20px">
+        <h2>Bricks. Capital. <em style="font-style:italic;color:var(--gold-l)">Ideas.</em></h2>
+        <div class="txt"><p>The first pays the rent. The second does the compounding. The third keeps us honest, because every idea we publish has to survive daylight.</p></div>
       </div>
     </div>
-  </section>
-
-  <!-- TEXTURE BAND -->
-  <section class="band" aria-label="Product care">
-    <div style="position:relative;overflow:hidden">
-      <img class="poster" src="assets/texture-poster.jpg" alt="Close-up of a soft cream texture" loading="lazy">
-      <video class="bg-video" muted loop playsinline preload="none" poster="assets/texture-poster.jpg" data-src="assets/texture.mp4" aria-hidden="true" style="position:absolute;inset:0"></video>
-    </div>
-    <div class="txt">
-      <span class="eyebrow rv">Care in every step</span>
-      <h2 class="rv d1">Chosen for how it feels, not only how it sells.</h2>
-      <p class="lead rv d2">We select formulas and brands we are proud to stand behind, and handle every order with the same care.</p>
-    </div>
-  </section>
-
-  <!-- FOR BRANDS -->
-  <section id="brands">
-    <div class="wrap brands">
-      <span class="eyebrow rv">For brands &amp; distributors</span>
-      <h2 class="rv d1">Bring your brand to Southeast Asia.</h2>
-      <p class="lead rv d2">We partner with Korean beauty brands that are ready for Southeast Asia but not yet established there. Whether you need an export partner, a regional distributor or marketplace operations, we would like to hear from you.</p>
-      <p class="note rv d2">Independent and emerging brands are especially welcome.</p>
-      <div class="ctas rv d3">
-        <a class="btn fill" href="mailto:admin@clovityventures.com?subject=Brand%20partnership%20%E2%80%94%20Clovity%20Vault">Partner with us <span class="arr">→</span></a>
-        <a class="btn line" href="mailto:admin@clovityventures.com?subject=Wholesale%20enquiry%20%E2%80%94%20Clovity%20Vault">Wholesale enquiries <span class="arr">→</span></a>
-      </div>
-      <p class="mail rv d3"><a href="mailto:admin@clovityventures.com">admin@clovityventures.com</a></p>
+    <div class="tiles" style="max-width:1360px;margin-left:auto;margin-right:auto;padding:0 var(--gut)">
+      <article class="tile rv">
+        <img src="assets/seoul-yeouido-hanriver.jpg" alt="The Yeouido skyline across the Han River" loading="lazy">
+        <div class="card"><p class="lab">01 · Bricks</p><h3>Location, location, <em style="font-style:italic">duration.</em></h3><p class="d">Real estate in Seoul, held for generations. We buy what we would never need to sell, and look after it as though we never will.</p></div>
+      </article>
+      <article class="tile rv d1">
+        <img src="assets/seoul-downtown-night.jpg" alt="Central Seoul at night, seen from Namsan" loading="lazy">
+        <div class="card"><p class="lab">02 · Capital</p><h3>We read the footnotes.</h3><p class="d">Principal investment of our own capital: patient enough to be early, stubborn enough to stay.</p></div>
+      </article>
+      <article class="tile rv d2">
+        <img src="assets/seoul-gwanghwamun-gate.jpg" alt="Gwanghwamun, the main gate of Gyeongbokgung Palace" loading="lazy">
+        <div class="card"><p class="lab">03 · Ideas</p><h3>We show our work.</h3><p class="d">Research in the open, plus music IP. If we cannot explain it simply, we have not understood it yet.</p></div>
+      </article>
     </div>
   </section>
 
-  <!-- PARTNERS (KOREAN) -->
-  <section class="partners" id="partners" lang="ko">
+  <section id="approach">
     <div class="wrap">
-      <span class="eyebrow rv">브랜드 파트너</span>
-      <h2 class="rv d1">한국 브랜드의 동남아 첫 판매, 작게 시작해 함께 키웁니다.</h2>
-      <p class="lead rv d2">클로비티볼트는 서울에 있는 화장품 수출·유통 회사입니다. 싱가포르를 시작으로 말레이시아·대만으로 넓혀 가며, 아직 동남아에 공식 판매처가 없는 한국 브랜드와 함께합니다.</p>
-      <div class="steps">
-        <div class="step rv"><span class="n">01</span><h3>판매 수권</h3><p>쇼피 싱가포르 비독점 공식 판매자로 시작합니다. 큰 계약이나 독점을 먼저 요구하지 않습니다.</p></div>
-        <div class="step rv d1"><span class="n">02</span><h3>싱가포르 신고</h3><p>싱가포르 화장품 신고(HSA)와 현지 책임 명의를 저희가 준비합니다. 브랜드는 전성분·제조 정보만 주시면 됩니다.</p></div>
-        <div class="step rv d2"><span class="n">03</span><h3>정품 판매 운영</h3><p>브랜드 또는 공식 유통사에서 받은 정품만 판매하고, 상품 등록·가격·배송·고객 응대를 맡습니다.</p></div>
-        <div class="step rv d3"><span class="n">04</span><h3>분기 성적표</h3><p>판매 수량·리뷰·현지 검색량을 분기마다 한 장으로 공유합니다. 성과가 쌓이면 지역 공식 유통을 함께 논의합니다.</p></div>
+      <span class="eyebrow">Principles</span>
+      <h2 style="font-size:clamp(34px,4vw,56px);margin-top:18px">Three rules. <em style="font-style:italic;color:var(--gold)">No exceptions.</em></h2>
+      <div class="pr rv">
+        <div><p class="lab">Horizon</p><h3>Think in decades</h3><p>Quarters are weather. Decades are climate. We dress for the climate.</p></div>
+        <div><p class="lab">Evidence</p><h3>Source or silence</h3><p>If a number cannot be traced to an original document, it does not get a vote.</p></div>
+        <div><p class="lab">Capital</p><h3>Only our own</h3><p>No outside money. No advice. No excuses. The risk, and the patience, are ours alone.</p></div>
       </div>
-      <p class="ask rv">제휴 문의 <a href="mailto:admin@clovityventures.com?subject=%EB%B8%8C%EB%9E%9C%EB%93%9C%20%EC%A0%9C%ED%9C%B4%20%EB%AC%B8%EC%9D%98">admin@clovityventures.com</a></p>
     </div>
   </section>
 
-  <!-- COMPANY -->
+  <section class="korean" id="seoul">
+    <img data-par="0.18" src="assets/seoul-hanriver-namsan-night.jpg" alt="Seongsu Bridge over the Han River, with N Seoul Tower beyond" loading="lazy">
+    <div class="wrap">
+      <span class="eyebrow">Seoul</span>
+      <div class="split">
+        <h2>Our city.<br><em style="font-style:italic;color:var(--gold-l)">Our longest position.</em></h2>
+        <div class="txt">
+          <p>Seoul is the fastest city we know. We are, by design, the slowest money in it.</p>
+          <ul>
+            <li><b>Bricks</b><span>Across the Seoul metropolitan area.</span></li>
+            <li><b>Capital</b><span>Private, patient and entirely our own.</span></li>
+            <li><b>Ideas</b><span>Researched in Seoul, shared with the world.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="company" id="company">
-    <div class="wrap co">
-      <div>
-        <span class="eyebrow">Company</span>
-        <h2>Clovity Vault Co., Ltd.</h2>
-      </div>
-      <dl>
-        <dt>Company</dt><dd>Clovity Vault Co., Ltd. <span lang="ko" style="font-family:'Noto Sans KR',var(--sans);opacity:.8">(클로비티볼트 주식회사)</span></dd>
+    <div class="wrap">
+      <span class="eyebrow">Say hello</span>
+      <h2 style="font-size:clamp(34px,4vw,56px);margin-top:18px">Clovity Vault Co., Ltd.</h2>
+      <dl class="rv">
+        <dt>Legal name</dt><dd>Clovity Vault Co., Ltd.</dd>
         <dt>Business reg. no.</dt><dd>766-87-03355</dd>
-        <dt>Address</dt><dd>22-12, Bongeunsa-ro 26-gil, Gangnam-gu, Seoul, Republic of Korea</dd>
-        <dt>Business</dt><dd>Export and distribution of cosmetics · Cross-border e-commerce</dd>
-        <dt>Markets</dt><dd>Singapore · Malaysia · Taiwan</dd>
-        <dt>Contact</dt><dd><a href="mailto:admin@clovityventures.com">admin@clovityventures.com</a></dd>
+        <dt>Registered office</dt><dd>22-12, Bongeunsa-ro 26-gil, Gangnam-gu, Seoul, Republic of Korea</dd>
+        <dt>Enquiries</dt><dd><a href="mailto:admin@clovityventures.com">admin@clovityventures.com</a></dd>
       </dl>
     </div>
   </section>
@@ -370,38 +284,48 @@
 
 <footer>
   <div class="wrap">
-    <span class="brand">Clovity Vault</span>
-    <span>© 2026 Clovity Vault Co., Ltd. · Part of Clovity Ventures</span>
-    <span class="fine">Images are illustrative.</span>
+    <div class="disc">
+      <span class="eyebrow">Disclaimer</span>
+      <div>
+        <p>Clovity Vault Co., Ltd. invests solely its own capital. It does not solicit or manage funds from third parties, is not licensed as an investment adviser or financial investment business in the Republic of Korea or elsewhere. Nothing on this website constitutes an offer, a solicitation or investment advice, and it should not be relied upon as such.</p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="wrap" style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;width:100%">
+      <span class="brand">CLOVITY VAULT</span>
+      <span>© 2026 Clovity Vault Co., Ltd. · Part of Clovity Ventures</span>
+      <p class="credits">Photographs via Wikimedia Commons, resized and cropped: Seoul at dusk — Lee Kyu Sang (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>) · Yeouido — Ox1997cow (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>) · Central Seoul at night — Penmerahpenbiru (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>) · Gwanghwamun — 이창로 (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>) · Seongsu Bridge and N Seoul Tower — public domain.</p>
+    </div>
   </div>
 </footer>
 
 <script>
 (function(){
-  var nav=document.getElementById('nav');
-  function onScroll(){nav.classList.toggle('solid',window.scrollY>window.innerHeight*0.6)}
-  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
-
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // reveal on scroll
   var els=document.querySelectorAll('.rv');
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+  if('IntersectionObserver' in window && !reduce){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);
+      e.target.querySelectorAll&&e.target.querySelectorAll('[data-count]').forEach(count)}})},{threshold:.18});
     els.forEach(function(el){io.observe(el)});
   }else{els.forEach(function(el){el.classList.add('in')})}
-
-  // Videos: desktop only, loaded when near view; posters remain on mobile / reduced motion.
-  var allow=window.matchMedia('(min-width:768px)').matches && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(!allow) return;
-  var vids=document.querySelectorAll('video.bg-video');
-  function start(v){
-    v.muted=true;v.autoplay=true;
-    if(!v.src){v.src=v.dataset.src;v.load();v.addEventListener('canplay',function(){v.play().catch(function(){})},{once:true});}
-    v.addEventListener('playing',function(){var p=v.parentNode.querySelector('.poster');if(p)p.style.visibility='hidden'},{once:true});
-    var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});
+  // count-up
+  function count(el){var to=+el.dataset.count,suf=el.dataset.suffix||'',t0=null,d=1600;
+    function f(t){if(!t0)t0=t;var p=Math.min(1,(t-t0)/d),v=Math.round(to*(1-Math.pow(1-p,3)));el.textContent=v+suf;if(p<1)requestAnimationFrame(f)}
+    el.textContent='0'+suf;requestAnimationFrame(f)}
+  if(reduce) return;
+  // parallax
+  var par=[].slice.call(document.querySelectorAll('[data-par]'));
+  var bar=document.querySelector('.bar'), hero=document.querySelector('.hero');
+  function tick(){
+    var y=window.scrollY, vh=window.innerHeight;
+    par.forEach(function(el){var r=el.parentNode.getBoundingClientRect();if(r.bottom<0||r.top>vh)return;
+      var k=+el.dataset.par, off=(r.top+r.height/2-vh/2)*k*-1;
+      if(el.closest('.hero')){el.style.translate='0 '+(y*k)+'px'}else{el.style.transform='translate3d(0,'+off+'px,0)'}});
+    if(bar&&hero){bar.classList.toggle('solid',y>hero.offsetHeight-80)}
   }
-  if('IntersectionObserver' in window){
-    var vo=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting)start(v);else if(v.src)v.pause()})},{rootMargin:'200px 0px'});
-    vids.forEach(function(v){vo.observe(v)});
-  }else{vids.forEach(start)}
+  window.addEventListener('scroll',function(){requestAnimationFrame(tick)},{passive:true});tick();
 })();
 </script>
 </body>
